@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    }
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .nav-list{
+        display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+    }
+    html{
+        scroll-behavior: smooth;
+      }
+    .nav-link {
+        padding: 0 20px;
+        line-height: 50px;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#ffffff;
+        transition: .3s;
+        cursor: pointer;
+      }
+    .nav-link a::hover{
+      text-decoration: underline;
+      color:#f0f8ff;
+    }
+    .header{
+      background-color: darkseagreen;
+    }
+    #profile hr{
+      background-color:rgb(212, 174, 174);
+      height:8px;
+      border:none;
+    }
+    #profile h1{
+      text-align: center;
+      padding-left: 100px;
+      color:seagreen;
+    }
+    #profile img{
+      padding-top:50px;
+      padding-left:50px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+      border-radius: 50%;
+      width:250px;
+      height:250px;
+    }
+    .section h2{
+       color:#2e8b57;
+       padding-left: 50px;
+       text-transform: uppercase;
+       letter-spacing:5px;
+    }
+    #contacts{
+      padding-left:60%;
+    }
+    #about{
+      padding-right: 50%;
+      border-left: 2px solid #ccc;
+      margin-left: 70px;
+      padding-left: 10px;
+    }
+    #skills ol{
+      list-style-type: square;
+    }
+    #skills li{
+      color:#2e8b57;
+    }
+    #skills li span{
+      color:black;
+    }
+    #skills{
+      padding-left:60%;
+    }
+    #code {
+      border-left: 2px solid #ccc;
+      margin-left: 70px;
+      padding-left: 10px;
+    }
+    #education{
+      padding-left:60%;
+      padding-right:5%;
+    }
+    #education a{
+      text-decoration:none;
+      color:black;
+    }
+    #english a{
+      text-decoration:none;
+      color:#2e8b57;
+    }
+    #english{
+      border-left: 2px solid #ccc;
+      margin-left: 70px;
+      padding-left: 10px;
+      padding-right: 35%;
+    }
+    .footer{
+      background-color:darkseagreen;
+      color:#ffffff;
+    }
+    .footer p{
+      padding-left:5%;
+    }
+    .footer a{
+      text-decoration:none;
+      color:#ffffff;
+    }
+    .footer img{
+      width: 160px;
+      height: 75px;
+      padding-left:100%;
+    }
